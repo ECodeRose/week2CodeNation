@@ -106,17 +106,38 @@
 //     console.log(noVowelMessage)
 // }
 
-// Activity 8
-let word = "aba"
-function isFirstAndLastSame(str) {
-    str = str.toLowerCase();
+// // Activity 8
+// let word = "aba"
 
-    if (str.length > 0) {
-        return str.charAt(0) === str.charAt(str.length - 1);
-    } else {
-        return false;
-    }
+// // using function
+// function isFirstAndLastSame(str) {
+//     str = str.toLowerCase();
+
+//     if (str.length > 0) {
+//         return str.charAt(0) === str.charAt(str.length - 1);
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isFirstAndLastSame(word))
+
+// // using if statement only
+// let isFirstAndLastSame;
+// if (word.charAt(0) === word.charAt(word.length - 1)){
+//     isFirstAndLastSame = true;
+// } else {
+//     isFirstAndLastSame = false;
+// }
+// console.log(isFirstAndLastSame)
+
+// Activity 9
+let num1 = 2
+let num2 = 4
+
+let sumOfNums = num1 + num2;
+
+if (sumOfNums % 2 === 0) {
+    console.log(sumOfNums)
+} else {
+    console.log(num1 * num2)
 }
-console.log(isFirstAndLastSame(word))
-
-
